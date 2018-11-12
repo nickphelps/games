@@ -1,16 +1,13 @@
-var content = document.getElementById('content');
+var content = document.getElementById('content')
 
-var rockPaperScissors = "Replace this with your own abstraction of Rock Paper Scissors"
+var rockPaperScissors = 'Replace this with your own abstraction of Rock Paper Scissors'
 
-content.innerHTML = renderGame(rockPaperScissors);
+content.innerHTML = renderGame(rockPaperScissors)
 
+function renderGame (game) {
+  // Change this render function to use the "game" parameter
 
-
-
-function renderGame(game) {
-    // Change this render function to use the "game" parameter
-
-    return `
+  return `
         <div class="container d-flex flex-column justify-content-start align-items-center">
             <h4>Choose your weapon:</h4>
             <div class="w-50 text-center">

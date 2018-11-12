@@ -13,3 +13,7 @@
 .taken {
     background-color: #ffb600
 }
+
+.gameOverText {
+    text-align: center;
+}
